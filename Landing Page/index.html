@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <!-- Desktop navigation-bar start -->
+      <nav class="nav-bar">
+        <h2 class="nav-text">Madelyn Torff</h2>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#project">Projects</a>
+          <a href="#contact">Contacts</a>
+        </div>
+      </nav>
+      <!--Desktop navigation-bar ends-->
+      <nav class="mobile nav-bar">
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#project">Projects</a>
+          <a href="#contact">Contacts</a>
+        </div>
+      </nav>
+
+    <!-- mobile only profile view -->
+      <div class="mobile profile-image" id="about">
+        <img src="./Images/mobile-profile-photo.png" alt="LadyImage" />
+      </div>
+
+      <!-- hero-section starts -->
+      <div class="hero-section">
+        <h2 class="subHeading">ui/ux designer</h2>
+        <h1 class="mainHeading">
+          Hello, my name<br />
+          is Madelyn Torff
+        </h1>
+        <p class="para faded-text">
+          Short text with details about you, what you do or your professional
+          career. You can add more information on the about page.
+        </p>
+        <div class="btnlinks">
+          <a href="#project" class="btn left-btn">Projects</a>
+          <a
+            href="https://www.linkedin.com/"
+            target="_blank"
+            class="btn right-btn"
+            >Linkedln</a
+          >
+        </div>
+      </div>
+      <!-- hero-section ends-->
+
+      <!-- project section starts -->
+      <div class="projects-section">
+        <h2 class="mainHeading" id="project">Projects</h2>
+        <div class="center-line"></div>
+        <!--project one-->
+        <div class="project">
+          <div class="project-left-section">
+            <h2 class="project-mainHeading">Project Name</h2>
+            <p class="project-para faded-text">
+              I created this personal project in order to show how to create an
+              interface in Figma using a portfolio as an example.
+            </p>
+            <a href="#" class="btn-link">View Project</a>
+          </div>
+          <div class="project-image">
+            <img src="./Images/lady-image.svg" alt="project1" />
+          </div>
+        </div>
+        <!--project-two -->
+        <div class="project">
+          <div class="project-right-section">
+            <img src="./Images/pen-project.svg" alt="project1" />
+          </div>
+          <div class="project-left-section">
+            <h2 class="project-mainHeading">Project Name</h2>
+            <p class="project-para faded-text">
+              What was your role, your deliverables, if the project was
+              personal, freelancing.
+            </p>
+            <a href="#" class="btn-link">View Project</a>
+          </div>
+        </div>
+        <!-- project-three -->
+        <div class="project">
+          <div class="project-left-section">
+            <h2 class="project-mainHeading">Project Name</h2>
+            <p class="project-para faded-text">
+              You can also add in this description the type of the project, if
+              it was for web, mobile, electron.
+            </p>
+            <a href="#" class="btn-link">View Project</a>
+          </div>
+          <div class="project-image">
+            <img src="./Images/mobile-project.svg" alt="project1" />
+          </div>
+        </div>
+      </div>
+      <!-- project section ends-->
+
+      <!--contact section start-->
+      <div class="contact-section" id="contact">
+        <h1 class="contact-mainHeading">Contact Me</h1>
+        <div class="center-line"></div>
+        <form action="#" class="user-form">
+          <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Send</button>
+        </form>
+      </div>
+
+      <!-- footer section start-->
+      <footer>
+        <div class="socialmedia-icons">
+          <a href="https://www.instagram.com/" target="_blank"
+            ><img src="./Images/footer/Instagram.svg" alt="Instagram"
+          /></a>
+          <a href="https://www.linkedin.com/" target="_blank"
+            ><img src="./Images/footer/Linkedln.svg" alt="Instagram"
+          /></a>
+          <a href="mailto:@gmail.com" target="_blank"
+            ><img src="./Images/footer/message.svg" alt="Instagram"
+          /></a>
+        </div>
+        <p class="para faded-text">Madelyn Torff 2021</p>
+      </footer>
+      <!--desktop only bg-image on hero section  -->
+      <div class="image-overlap">
+        <img src="./Images/background-image.svg" alt="LadyImage" />
+      </div>
+
+      <!--footer background image-->
+      <div class="footer-image-overlap">
+        <img src="./Images/footer/footer-background.svg" alt="background" />
+      </div>
+    </div>
+  </body>
+</html>
