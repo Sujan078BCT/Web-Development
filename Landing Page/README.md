@@ -6,7 +6,7 @@ The layout is designed for **mobile and desktop devices only** — **tablet layo
 
 ## 🔗 Live Demo
 
-> _Coming soon_ (or add your deployed site link here)
+🌐 [Live Portfolio Website](https://portfolio-website-psi-cyan-81.vercel.app/)
 
 ---
 
