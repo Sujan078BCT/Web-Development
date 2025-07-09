@@ -290,8 +290,8 @@ footer .socialmedia-icons {
   }
   /* navigation bar ends */
   .mobile.nav-bar{
-    transform:translateX(-10%);
-    width:102%;
+    transform:translateX(-13%);
+    width:106%;
     display:block;
     position:fixed;
     left:3rem;
@@ -351,7 +351,7 @@ footer .socialmedia-icons {
   /* project-section starts */
   .projects-section {
     width: 100%;
-    margin: 0 auto;
+    margin: 2rem auto;
   }
 
   .projects-section .mainHeading {
